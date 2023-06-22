@@ -1,0 +1,16 @@
+.search-nav {
+    height: 10em;
+    border-radius: 1em;
+    padding: 50px;
+    margin-bottom: 20px;
+    background-color: #2654df;
+}
+
+.search-title {
+    font-size: 24px;
+    color: #2654df;
+}
+
+.search-input {
+    width: 20em;
+}
