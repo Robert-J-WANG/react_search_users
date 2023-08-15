@@ -11,6 +11,45 @@
     color: #2654df;
 }
 
+.myForm {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
 .search-input {
     width: 20em;
+}
+
+@media screen and (max-width: 991px) {
+    .myForm {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .search-input {
+        width: 14em;
+    }
+}
+
+@media screen and (max-width: 532px) {
+
+    .search-nav {
+        padding-top: 15px;
+    }
+
+    .myForm {
+        flex-wrap: wrap;
+    }
+    .search-input {
+        width: 100%;
+    }
+    button{
+        margin-top: 10px;
+     
+    }
+    button:first-child{
+        margin-right: 50px;
+    }
 }
