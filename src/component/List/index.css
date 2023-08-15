@@ -16,9 +16,10 @@
 
 .card>img {
     margin-bottom: 0.75rem;
-    border-radius: 100px;
+    border-radius: 50%;
 }
 
 .card-text {
-    font-size: 85%;
+    color: white;
+    font-weight: 500;
 }
